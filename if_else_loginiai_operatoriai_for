@@ -1,0 +1,31 @@
+#grąžints, kiekvieno elemento gretimą skaičių. Pvz:
+#Input: 5678
+#Output: 5 – 46, 6 – 57, 7 – 68, 8 - 79
+
+user=input("ivesk 4 zenkli skaiciu:")
+result=[int(x) for x in user]
+length=len(result)/2
+len_res=len(result)%2==0
+bol=False
+start=sum(result[:int(length)])
+end=sum(result[int(length):])
+if len_res:
+    if start==end:
+        bol=True
+        print(bol)
+    else:
+        print(bol)
+else:
+    print(bol)
+for i in result:
+    print(f'{i}-{i-1}{i+1}')
+    
+    #output
+    ivesk 4 zenkli skaiciu:2563
+False
+2-13
+5-46
+6-57
+3-24
+
+Process finished with exit code 0
