@@ -1,0 +1,17 @@
+Atspausdins, kiekvieno elemento gretimą skaičių. Pvz:
+# Input: 5678
+# Output: 5 – 46, 6 – 57, 7 – 68, 8 - 79
+
+sk = input('Iveskite skaiciu: ')
+for element in sk:
+    int_sk = int(element)
+    sk_before = int_sk - 1
+    sk_after = int_sk + 1
+    print(f'{element}-{sk_before}{sk_after}')
+
+#output
+Iveskite skaiciu: 2536
+2-13
+5-46
+3-24
+6-57
