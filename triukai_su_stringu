@@ -1,0 +1,18 @@
+#Parašyti programą, kuri su eilute "Zen of Python" darytų šiuos veiksmus:
+#• Atspausdintų paskutinį antro žodžio simbolį
+#• Atspausdintų pirmą trečio žodžio simbolį
+#• Atspausdintų tik pirmą žodį
+#• Atspausdintų tik paskutinį žodį
+#• Atspausdintų visą frazę atbulai
+#• Atskirtų žodžius ir juos atspausdintų
+#• Žodį "Python" pakeistų į "Programming" ir atspausdintų naują sakinį
+#Naudoti string karpymo įrankius, funkcijas split(), replace()
+
+sakinys = "Zen of Python"
+print(sakinys[5])
+print(sakinys[-6])
+print(sakinys[:3])
+print(sakinys[-6:])
+print(sakinys[::-1])
+print(sakinys.split())
+print(sakinys.replace("Python", "Programming"))
