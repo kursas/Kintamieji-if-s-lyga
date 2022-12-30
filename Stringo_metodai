@@ -1,0 +1,19 @@
+# Programoje išbandyti daugiau string funkcijų:
+# • upper()
+# • casefold()
+# • capitalize()
+# • count()
+# • find()
+# • ir t.t.
+# Visas jas galite rasti čia: https://www.w3schools.com/python/python_ref_string.asp
+
+
+sakinys = "The Zen of Python"
+
+print(sakinys.upper())
+print(sakinys.casefold())
+print(sakinys.capitalize())
+print(sakinys.count("e"))
+print(sakinys.count("Zen"))
+print(sakinys.center(20))
+print(sakinys.find("of"))
